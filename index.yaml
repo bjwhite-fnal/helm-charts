@@ -2,9 +2,9 @@ apiVersion: v1
 entries:
   rucio-daemons:
   - apiVersion: v1
-    created: "2022-03-30T16:37:21.241856326Z"
+    created: "2022-03-30T16:44:00.407069755Z"
     description: A Helm chart to deploy daemons for Rucio
-    digest: 812177593e602496f038cbf56f9da2a2b4593edf95f27b3fc72f06cfbfdb5570
+    digest: 6d982c7241a8005e5446d58e2a06ee624353e9d5aa799cea4aa42a015daf2bbd
     home: https://rucio.cern.ch/
     keywords:
     - data-management
@@ -21,18 +21,18 @@ entries:
   rucio-probes:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-03-30T16:37:21.360883611Z"
+    created: "2022-03-30T16:44:00.558068794Z"
     description: Helm chart for probe cron jobs needed in Rucio
-    digest: 0b8e9f621b2f04d88aa600669fb08b5d51b691c5ce7a6fa3e7e35cf3d12e0725
+    digest: 70bdca1217ad1c8ac5117e450b203a6e1f50ebb688013c70e8f20f29ae9e2396
     name: rucio-probes
     urls:
     - https://github.com/bjwhite-fnal/helm-charts/releases/download/rucio-probes-1.28.0/rucio-probes-1.28.0.tgz
     version: 1.28.0
   rucio-server:
   - apiVersion: v1
-    created: "2022-03-30T16:37:21.466110924Z"
+    created: "2022-03-30T16:44:00.701970969Z"
     description: A Helm chart to deploy servers for Rucio
-    digest: ef562d54e185c987cf792f4ef05542773d3b745436e0fbc170f00273eb3a2bb8
+    digest: fca7e56b2b5540430a5349c9638778862aca3dbbc49ed34f9ff90f3dde7ec657
     home: https://rucio.cern.ch/
     keywords:
     - data-management
@@ -48,9 +48,9 @@ entries:
     version: 1.28.0
   rucio-ui:
   - apiVersion: v1
-    created: "2022-03-30T16:37:21.5844479Z"
+    created: "2022-03-30T16:44:00.844371651Z"
     description: A Helm chart to deploy webui servers for Rucio
-    digest: 9fbca6d858f74b49ea33b39d3e2cc658f3464e5d4190243ccf3525dbbbd42475
+    digest: 2f3bdb654c324b04d6bd6ba42b7608ec9842d32890db23d09122cd1a0e08a6cb
     home: https://rucio.cern.ch/
     keywords:
     - data-management
@@ -64,4 +64,4 @@ entries:
     urls:
     - https://github.com/bjwhite-fnal/helm-charts/releases/download/rucio-ui-1.28.1/rucio-ui-1.28.1.tgz
     version: 1.28.1
-generated: "2022-03-30T16:37:21.5844541Z"
+generated: "2022-03-30T16:44:00.844376551Z"
