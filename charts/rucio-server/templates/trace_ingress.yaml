@@ -2,6 +2,7 @@
 {{- if .Values.traceIngress.enabled -}}
 {{- $fullName := include "rucio.fullname" . -}}
 {{- $ingressPath := .Values.traceIngress.path -}}
+{{- $kubeApiVersion := include "rucio.ingress.apiVersion" . -}}
 apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
@@ -33,8 +34,16 @@ spec:
         paths:
           - path: {{ $ingressPath }}
             backend:
-              serviceName: {{ $fullName }}-trace
+    {{- if eq $kubeApiVersion "networking.k8s.io/v1" }}
+              service:
+                name: {{ $fullName }}-trace
+                port:
+                  number: {{ $.Values.traceService.port }}
+            pathType: Prefix
+    {{- else }}
+              serviceName: {{ $fullName }}
               servicePort: {{ $.Values.traceService.port }}
+    {{- end }}
   {{- end }}
 {{- end }}
 {{- end }}
