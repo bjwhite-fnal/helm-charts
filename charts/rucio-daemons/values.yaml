@@ -41,6 +41,8 @@ strategy:
     maxSurge: 1
     maxUnavailable: 1
 
+exportConfigToEnv: true
+
 podLabels: {}
 podAnnotations: {}
 
@@ -80,6 +82,7 @@ abacusCollectionReplica:
       cpu: "700m"
 
 abacusRse:
+  fillHistoryTable: 0
   threads: 1
   podAnnotations: {}
   resources:
