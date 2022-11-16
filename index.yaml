@@ -2,9 +2,9 @@ apiVersion: v1
 entries:
   rucio-daemons:
   - apiVersion: v1
-    created: "2022-09-07T17:51:42.892123198Z"
+    created: "2022-11-16T15:51:51.629112015Z"
     description: A Helm chart to deploy daemons for Rucio
-    digest: 86568bb64a4e134ea55c9e82de8dae1ef991bee51848ebeba673ef111a5e928b
+    digest: e0ec90c8db94d0da0bb6b8c8e56adc33b22ee30da71ad84b5147b281560a518f
     home: https://rucio.cern.ch/
     keywords:
     - data-management
@@ -18,50 +18,4 @@ entries:
     urls:
     - https://github.com/bjwhite-fnal/helm-charts/releases/download/rucio-daemons-1.29.5/rucio-daemons-1.29.5.tgz
     version: 1.29.5
-  rucio-probes:
-  - apiVersion: v1
-    appVersion: "1.0"
-    created: "2022-09-07T17:51:43.102258485Z"
-    description: Helm chart for probe cron jobs needed in Rucio
-    digest: ce50762adf79eda32c4b217afde9ce23914a3605253877463a58c07ee26b066f
-    name: rucio-probes
-    urls:
-    - https://github.com/bjwhite-fnal/helm-charts/releases/download/rucio-probes-1.29.0/rucio-probes-1.29.0.tgz
-    version: 1.29.0
-  rucio-server:
-  - apiVersion: v1
-    created: "2022-09-07T17:51:43.26454463Z"
-    description: A Helm chart to deploy servers for Rucio
-    digest: 6e803c146f23b357d3d110f30b89765848995bf7bdbc96ce33ef3cf7e0cadb70
-    home: https://rucio.cern.ch/
-    keywords:
-    - data-management
-    - science
-    maintainers:
-    - email: rucio-dev@cern.ch
-      name: Rucio development team
-    name: rucio-server
-    sources:
-    - https://github.com/rucio/rucio
-    urls:
-    - https://github.com/bjwhite-fnal/helm-charts/releases/download/rucio-server-1.29.1/rucio-server-1.29.1.tgz
-    version: 1.29.1
-  rucio-ui:
-  - apiVersion: v1
-    created: "2022-09-07T17:51:43.422779672Z"
-    description: A Helm chart to deploy webui servers for Rucio
-    digest: 900bf8a05ccb0ca03a9ec76912e2d8464175642028b10312550b039da5585ec2
-    home: https://rucio.cern.ch/
-    keywords:
-    - data-management
-    - science
-    maintainers:
-    - email: rucio-dev@cern.ch
-      name: Rucio development team
-    name: rucio-ui
-    sources:
-    - https://github.com/rucio/rucio
-    urls:
-    - https://github.com/bjwhite-fnal/helm-charts/releases/download/rucio-ui-1.29.1/rucio-ui-1.29.1.tgz
-    version: 1.29.1
-generated: "2022-09-07T17:51:43.422786772Z"
+generated: "2022-11-16T15:51:51.629117415Z"
