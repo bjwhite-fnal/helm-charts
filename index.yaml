@@ -2,9 +2,9 @@ apiVersion: v1
 entries:
   rucio-daemons:
   - apiVersion: v1
-    created: "2022-11-16T15:52:51.491626804Z"
+    created: "2023-08-28T22:48:45.924410626Z"
     description: A Helm chart to deploy daemons for Rucio
-    digest: c44fdb5b28fa3c36f4fdcf31d01431cad17d91ec5f5f6111426899c1b4272c53
+    digest: 90ebc971b1d6483ae296c07c17bf50dbfed4528d1af41e596d3b05042d34dc28
     home: https://rucio.cern.ch/
     keywords:
     - data-management
@@ -16,13 +16,13 @@ entries:
     sources:
     - https://github.com/rucio/rucio
     urls:
-    - https://github.com/bjwhite-fnal/helm-charts/releases/download/rucio-daemons-1.29.8/rucio-daemons-1.29.8.tgz
-    version: 1.29.8
+    - https://github.com/bjwhite-fnal/helm-charts/releases/download/rucio-daemons-1.29.10/rucio-daemons-1.29.10.tgz
+    version: 1.29.10
   rucio-server:
   - apiVersion: v1
-    created: "2022-11-16T15:52:51.628867271Z"
+    created: "2023-08-28T22:48:46.130356796Z"
     description: A Helm chart to deploy servers for Rucio
-    digest: 035f2ab523ba4a757510b927848cfadfecb40417d8d19152606ab45bb32f4ce2
+    digest: ae8b0168dea97a82a90d28789c36b93f018c3d009387def424326868aa5e8ccb
     home: https://rucio.cern.ch/
     keywords:
     - data-management
@@ -34,13 +34,13 @@ entries:
     sources:
     - https://github.com/rucio/rucio
     urls:
-    - https://github.com/bjwhite-fnal/helm-charts/releases/download/rucio-server-1.29.3/rucio-server-1.29.3.tgz
-    version: 1.29.3
+    - https://github.com/bjwhite-fnal/helm-charts/releases/download/rucio-server-1.29.4/rucio-server-1.29.4.tgz
+    version: 1.29.4
   rucio-ui:
   - apiVersion: v1
-    created: "2022-11-16T15:52:51.796927409Z"
+    created: "2023-08-28T22:48:46.315078387Z"
     description: A Helm chart to deploy webui servers for Rucio
-    digest: f583738b3b7fba1bdbbb0213d3abb7628a5dbde0a054bbcafce99f09fa76177d
+    digest: c8195c06b8040c9a3a03d8b52ffd6974d04899ee45b94eaa979c502d1008ebf5
     home: https://rucio.cern.ch/
     keywords:
     - data-management
@@ -52,6 +52,6 @@ entries:
     sources:
     - https://github.com/rucio/rucio
     urls:
-    - https://github.com/bjwhite-fnal/helm-charts/releases/download/rucio-ui-1.29.3/rucio-ui-1.29.3.tgz
-    version: 1.29.3
-generated: "2022-11-16T15:52:51.796937109Z"
+    - https://github.com/bjwhite-fnal/helm-charts/releases/download/rucio-ui-1.29.4/rucio-ui-1.29.4.tgz
+    version: 1.29.4
+generated: "2023-08-28T22:48:46.315090687Z"
