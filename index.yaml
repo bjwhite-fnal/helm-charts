@@ -2,9 +2,9 @@ apiVersion: v1
 entries:
   rucio-daemons:
   - apiVersion: v1
-    created: "2023-09-13T12:39:58.294522143Z"
+    created: "2023-09-13T12:40:58.699817945Z"
     description: A Helm chart to deploy daemons for Rucio
-    digest: f0317343d99c5d719c5a8f726251c41088428a61ab0da08e8adb71ffc7ebba46
+    digest: 7692ccabe6921a7583be3e2ec8196260c0358b71e0bbd637ed12d08fc8ac0747
     home: https://rucio.cern.ch/
     keywords:
     - data-management
@@ -21,18 +21,18 @@ entries:
   rucio-probes:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2023-09-13T12:39:58.411673622Z"
+    created: "2023-09-13T12:40:58.882465514Z"
     description: Helm chart for probe cron jobs needed in Rucio
-    digest: c71653337d81bb68df54991b56074ec96114fae824e01e991f2ad8020dd234c5
+    digest: 02de96141e9a8cb423387d30ed46056dec27c72a77d272abb2da8e69bedb3244
     name: rucio-probes
     urls:
     - https://github.com/bjwhite-fnal/helm-charts/releases/download/rucio-probes-32.0.0/rucio-probes-32.0.0.tgz
     version: 32.0.0
   rucio-server:
   - apiVersion: v1
-    created: "2023-09-13T12:39:58.533260154Z"
+    created: "2023-09-13T12:40:58.993751671Z"
     description: A Helm chart to deploy servers for Rucio
-    digest: d7981531cd980e7b4d75d2735c098c84b56ec0edbccb077b785525b1bc287351
+    digest: 203785eb25b2a4936e067f0e15f1346db4076eb71e20d6fdfaac943cd37cf47b
     home: https://rucio.cern.ch/
     keywords:
     - data-management
@@ -48,9 +48,9 @@ entries:
     version: 32.0.0
   rucio-ui:
   - apiVersion: v1
-    created: "2023-09-13T12:39:58.672869814Z"
+    created: "2023-09-13T12:40:59.117233135Z"
     description: A Helm chart to deploy webui servers for Rucio
-    digest: 5b3951e9620bebf02b28659be286510102c14a082d4ccbc6b7d8ab920e530754
+    digest: e9bcb9fa5e463b342a21efb29f70258b8dc185baf4944599f092c8b646db13ac
     home: https://rucio.cern.ch/
     keywords:
     - data-management
@@ -66,9 +66,9 @@ entries:
     version: 32.0.0
   rucio-webui:
   - apiVersion: v1
-    created: "2023-09-13T12:39:58.81785998Z"
+    created: "2023-09-13T12:40:59.266289637Z"
     description: A Helm chart to deploy the new webui (2.0) servers for Rucio
-    digest: 39aceede76d5a66c78956819d6e5597e337b1729fe7019d7ba353d580135a365
+    digest: 7a85c7746a3ee0ce77147d58c8bafe8a68f0e5ef11a1dd97e8dcd5a287007835
     home: https://rucio.cern.ch/
     keywords:
     - data-management
@@ -82,4 +82,4 @@ entries:
     urls:
     - https://github.com/bjwhite-fnal/helm-charts/releases/download/rucio-webui-32.0.0/rucio-webui-32.0.0.tgz
     version: 32.0.0
-generated: "2023-09-13T12:39:58.817968987Z"
+generated: "2023-09-13T12:40:59.266397937Z"
